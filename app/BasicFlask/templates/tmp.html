@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1> Hi {{name}}</h1>
+
+
+{%
+for key,value in name2.items()
+%}
+
+<h2>{{key}} says {{value}}</h2>
+
+{%endfor%}
+</body>
+</html>
